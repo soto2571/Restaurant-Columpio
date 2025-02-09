@@ -8,6 +8,7 @@ import Expertise from './components/Expertise';
 import Review from './components/Review';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import Reservation from './components/Reservation';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <HeroSection/>
       <Navbar/>
       <Menu/>
+      <Reservation/>
       <About/>
       <Mission/>
       <Expertise/>
