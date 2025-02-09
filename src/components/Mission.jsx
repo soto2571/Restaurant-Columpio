@@ -1,5 +1,5 @@
 import missionImg from "../assets/mission.jpeg";
-import mission from "../assets/mission.mp4";
+import mission from "../assets/mission1.mp4";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
 

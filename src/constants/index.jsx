@@ -1,22 +1,18 @@
-import dish1 from "../assets/dish1.jpeg";
-import dish2 from "../assets/dish2.jpeg";
-import dish3 from "../assets/dish3.jpeg";
-import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
-import dish6 from "../assets/dish6.jpeg";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
+import menu1 from "../assets/brunch.jpg";
+import menu2 from "../assets/sandwich.jpg";
+import menu3 from "../assets/coffee.jpg";
+import menu4 from "../assets/cake.jpg";
+import menu5 from "../assets/drinks.jpg";
 
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+
+import brunch from "../assets/brunch.jpg";
+import coffee from "../assets/coffee.jpg";
+import pastry from "../assets/cake.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  { text: "Menu", targetId: "menu" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -24,58 +20,67 @@ export const LINKS = [
   { text: "Contact", targetId: "contact" },
 ];
 
-export const DISHES = [
+export const MENU = [
   {
-    image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    image: menu1,
+    title: "Breakfast Menu",
+    description: "Start your day with our delicious breakfast selection.",
+    items: [
+      "Scrambled Eggs with Toast",
+      "Pancakes with Maple Syrup",
+      "Oatmeal with Fresh Berries",
+      "Avocado Toast",
+      "French Croissant"
+    ]
   },
   {
-    image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    image: menu2,
+    title: "Sandwich & Toast Menu",
+    description: "Tasty sandwiches and toasts for every craving.",
+    items: [
+      "Classic Club Sandwich",
+      "Grilled Cheese Toast",
+      "Ham & Swiss Croissant",
+      "Caprese Panini",
+      "Egg Salad Sandwich"
+    ]
   },
   {
-    image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    image: menu3,
+    title: "Coffee Menu",
+    description: "Freshly brewed coffee made from the finest beans.",
+    items: [
+      "Espresso",
+      "Latte",
+      "Cappuccino",
+      "Americano",
+      "Iced Coffee"
+    ]
   },
   {
-    image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
+    image: menu4,
+    title: "Cake & Dessert Menu",
+    description: "Sweet treats to satisfy your cravings.",
+    items: [
+      "New York Cheesecake",
+      "Chocolate Lava Cake",
+      "Strawberry Shortcake",
+      "Tiramisu",
+      "Macarons"
+    ]
   },
   {
-    image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
-  },
-  {
-    image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
-  },
-  {
-    image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
-  },
-  {
-    image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
-  },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
-  },
-  {
-    image: dish10,
-    title: "Tiramisu",
-    description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
-  },
+    image: menu5,
+    title: "Drinks Menu",
+    description: "Refreshing drinks and beverages.",
+    items: [
+      "Fresh Orange Juice",
+      "Iced Lemon Tea",
+      "Berry Smoothie",
+      "Matcha Latte",
+      "Sparkling Water"
+    ]
+  }
 ];
 
 export const ABOUT = {
@@ -90,22 +95,22 @@ export const MISSION =
 export const CUSINES = [
   {
     number: "01.",
-    image: italian,
-    title: "Italian",
+    image: brunch,
+    title: "Brunch",
     description:
       "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
+    image: coffee,
+    title: "Coffee",
     description:
       "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
   },
   {
     number: "03.",
-    image: indian,
-    title: "Indian",
+    image: pastry,
+    title: "Pastry",
     description:
       "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
   },
