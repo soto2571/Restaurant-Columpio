@@ -1,6 +1,6 @@
 const Reservation = () => {
   return (
-    <section className="container mx-auto py-16 text-center bg-black">
+    <section id="reservation" className="container mx-auto py-16 text-center bg-black">
       <h2 className="mb-8 text-3xl font-bold tracking-tighter text-white">
         Make a Reservation
       </h2>
