@@ -1,4 +1,4 @@
-import video from '../assets/hero.mp4';
+import video from '../assets/hero1.mp4';
 import logo from '../assets/logo.png';
 import hero from '../assets/hero.jpeg';
 import { motion } from 'framer-motion';
@@ -19,8 +19,8 @@ const HeroSection = () => {
                 transition={{ duration: 3 }}
                 src={logo} 
                 alt='restaurant logo' 
-                className='w-full p-4'/>
-                <p className='p-4 text-lg tracking-tighter text-white'>Paris</p>
+                className='w-full p-4 -mb-5'/>
+                <p className='p-4 text-lg tracking-tighter text-white'>Rincon</p>
             </div>
     </section>
   )
