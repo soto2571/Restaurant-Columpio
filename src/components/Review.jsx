@@ -22,12 +22,7 @@ const Review = () => {
                 </div>
             </div>
         </div>
-        <div className="mt-40 flex flex-col items-center justify-center gap-2
-        lg:flex-row">
-            {[customer1, customer2, customer3, customer4].map((customer, index) => (
-             <img key={index} src={customer} alt="customer" className="h-[300px] w-[200px] rounded-br-3xl p-2 rounded-tl-3xl object-cover"/>  
-            ))}
-        </div>
+        
     </section>
   )
 }
