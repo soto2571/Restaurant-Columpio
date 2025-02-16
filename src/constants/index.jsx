@@ -18,7 +18,6 @@ export const LINKS = [
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
 ];
 
 export const MENU = [

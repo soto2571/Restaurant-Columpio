@@ -8,18 +8,24 @@ const Footer = () => {
           
           {/* Contact Info */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold">Contact Us</h2>
-            <p className="mt-2 text-neutral-300">
-              Feel free to reach out to us through our social media or phone!
-            </p>
-            <p className="mt-2"><strong>Phone:</strong> (787) 458-7393</p>
-            <p className="mt-2"><strong>Email:</strong> info@elcolumpio.com</p>
-          </div>
+  <h2 className="text-2xl font-bold">Contact Us</h2>
+  <p className="mt-2 text-neutral-300">
+    Feel free to reach out to us through our social media or phone!
+  </p>
+  
+  {/* Clickable Phone Link */}
+  <p className="mt-2">
+    <strong>Phone:</strong>{" "}
+    <a href="tel:+17874587393" className=" hover:text-yellow-500">
+      (787) 458-7393
+    </a>
+  </p>
+</div>
 
           {/* Location */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold">Our Location</h2>
-            <p className="mt-2 text-neutral-300">
+            <p className="mt-2 text-neutral-300 ">
               📍 Rincón, Puerto Rico
             </p>
             <p className="mt-2 text-neutral-300">

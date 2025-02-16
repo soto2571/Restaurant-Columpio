@@ -6,7 +6,7 @@ const InfoSection = () => {
     >
 
         <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 className="text-3xl font-bold ">Info📍</h2>
+            <h2 className="text-3xl font-bold ">Visit Us📍</h2>
 
             <p className="mt-4 font-semibold text-lg text-yellow-600">Opening Hours:</p>
             <ul className="mt-2">
@@ -19,6 +19,14 @@ const InfoSection = () => {
             <p className="">
                 Edif RIOP, Carr. 115 km 12.1, Suite #1, Rincón, PR 00677
             </p>
+
+            <div className="mt-6">
+    <a href="tel:+17874587393">
+      <button className="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-yellow-600 transition duration-300">
+        Call Now
+      </button>
+    </a>
+  </div>
             </div>
 
             {/* Right Content - Google Map */}
