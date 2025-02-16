@@ -1,5 +1,5 @@
-import missionImg from "../assets/mission.jpeg";
 import mission from "../assets/mission1.mp4";
+import menu1 from "../assets/brunch.jpg";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,7 @@ const Mission = () => {
                 transition={{ duration: 2 }}
                 className="w-full rounded-3xl" 
                 autoPlay muted loop
-                playsInline poster={missionImg}>
+                playsInline poster={menu1}>
                     <source src={mission} type="video/mp4" />
                 </motion.video>
                 <motion.div

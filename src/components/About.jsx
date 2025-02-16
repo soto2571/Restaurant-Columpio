@@ -25,7 +25,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="mb-8 mt-1 h-2 w-36 bg-rose-300 lg:-rotate-3">
+                className="mb-8 mt-1 h-2 w-36 bg-yellow-600 lg:-rotate-3">
                 </motion.div>
                     
                     <motion.p 

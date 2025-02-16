@@ -1,5 +1,5 @@
 import { REVIEW } from "../constants"
-import xaviour from "../assets/xaviour.jpeg"
+import owner from "../assets/owner.jpeg"
 import customer1 from "../assets/customer1.jpeg"
 import customer2 from "../assets/customer2.jpeg"
 import customer3 from "../assets/customer3.jpeg"
@@ -14,7 +14,7 @@ const Review = () => {
                 {REVIEW.content}
             </p>
             <div className="flex items-center justify-center gap-6">
-                <img src={xaviour} width={80} height={80} alt={REVIEW.name} 
+                <img src={owner} width={80} height={80} alt={REVIEW.name} 
                 className="rounded-full border"/>
                 <div className="tracking-tighter">
                     <h6>{REVIEW.name}</h6>

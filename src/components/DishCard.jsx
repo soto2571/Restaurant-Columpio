@@ -1,9 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
+import { FaChevronDown } from "react-icons/fa";
 
 const DishCard = ({ project, isSelected, onClick }) => {
   return (
     <div
-      className="cursor-pointer rounded-3xl shadow-lg transition-all duration-300 hover:shadow-xl"
+      className="cursor-pointer rounded-3xl shadow-lg transition-all duration-300 hover:shadow-xl  p-4"
       onClick={onClick}
     >
       {/* Image */}
@@ -13,12 +14,23 @@ const DishCard = ({ project, isSelected, onClick }) => {
         className="rounded-3xl p-2 w-full"
       />
 
-      {/* Title */}
-      <div className="p-4">
-        <h3 className="mb-2 text-2xl font-bold tracking-tighter text-white">
-          {project.title}
-        </h3>
-        <p className="text-sm text-neutral-300">{project.description}</p>
+      {/* Title & Arrow */}
+      <div className="p-4 flex items-center justify-between">
+        <div>
+          <h3 className="mb-1 text-2xl font-bold tracking-tighter text-white">
+            {project.title}
+          </h3>
+          <p className="text-sm text-neutral-300">{project.description}</p>
+        </div>
+
+        {/* Arrow Icon */}
+        <motion.div
+          animate={{ rotate: isSelected ? 180 : 0 }}
+          transition={{ duration: 0.2 }}
+          className="text-white"
+        >
+          <FaChevronDown size={20} />
+        </motion.div>
       </div>
 
       {/* Expandable Menu Items */}

@@ -40,7 +40,7 @@ const Expertise = () => {
                         <img src={cusine.image} alt={cusine.title} className='h-auto rounded-3xl' />
                     </div>
                     <div className='pl-8'>
-                        <h3 className='text-2xl uppercase tracking-tighter text-rose-300'>
+                        <h3 className='text-2xl uppercase tracking-tighter text-yellow-600'>
                             {cusine.title}
                         </h3>
                         <p className='mt-4 text-lg tracking-tighter'>{cusine.description}</p>

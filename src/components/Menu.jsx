@@ -20,12 +20,12 @@ const Menu = () => {
       <h2 className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl">
         Our Menu
       </h2>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {MENU.map((menuItem, index) => (
           <DishCard
             key={index}
             project={menuItem}
-            isSelected={openMenus.includes(index)} // ✅ Now supports multiple open
+            isSelected={openMenus.includes(index)}
             onClick={() => handleSelectedMenu(index)}
           />
         ))}

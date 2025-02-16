@@ -6,9 +6,9 @@ import About from './components/About';
 import Mission from './components/Mission';
 import Expertise from './components/Expertise';
 import Review from './components/Review';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import Reservation from './components/Reservation';
+import InfoSection from './components/InfoSection';
 
 const App = () => {
   return (
@@ -16,12 +16,12 @@ const App = () => {
       <HeroSection/>
       <Navbar/>
       <Menu/>
+      <InfoSection/>
       <Reservation/>
       <About/>
       <Mission/>
       <Expertise/>
       <Review/>
-      <ContactSection/>
       <Footer />
     </main>
   )
