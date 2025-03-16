@@ -92,9 +92,9 @@ export const MENU = [
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "Where Passion Meets Tradition",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "At El Columpio, we cultivate a deep passion for coffee and artisanal pastries, honoring the rich history and craftsmanship behind every creation. Inspired by the warmth of family and a love for what we do, we offer more than just coffee — we create a space where every sip and bite connect with tradition and excellence. Through our barista courses, we inspire others to dream big and grow, elevating the culture of coffee, baking, and learning in every person who visits us.",
 };
 
 export const MISSION =
